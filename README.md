@@ -2,7 +2,7 @@
 
 A webpage that features a demo for a product landing page.
 
-**Live-Demo:** [https://oendemann.github.io/landing-page-demo/]
+**Live-Demo:** [https://oendemann.github.io/landing-page-demo/#Contact]
 
 ---
 
@@ -12,7 +12,7 @@ A webpage that features a demo for a product landing page.
 
 ## About The Page
 
-A webpage that demos a landing page for a couple TP-Link routers. It is the 2nd last project in the responsive web design course on freeCodeCamp, which had specific tests that needed to succeed to fulfill the project's requirements, but allowed free-range on all other design choices.
+A webpage that demos a landing page for a couple TP-Link routers. It is the 2nd last project in the responsive web design course on freeCodeCamp, which had specific tests that needed to succeed to fulfill the project's requirements, but allowed free-range on all other design choices. Only displays properly on desktop.
 
 ---
 
