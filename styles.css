@@ -29,7 +29,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 40px;
+  gap: 20px;
   margin: -90px 0 10px -1000px;
   top: 90px;
   position: fixed;
@@ -71,6 +71,14 @@ nav {
   z-index: 200;
 }
 
+@media (max-width: 440px) {
+  #header-img {
+    width: 110px;
+    height: 40px;
+    margin: 30px -100px 0 0;
+  }
+}
+
 #newsletter-header {
   background-color: var(--newsletter-color);
   border-radius: 3px;
@@ -107,6 +115,7 @@ nav {
   margin: auto;
   overflow: hidden;
   width: 100%;
+  z-index: -1;
 }
 
 #Shop {
