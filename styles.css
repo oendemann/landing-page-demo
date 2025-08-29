@@ -102,8 +102,11 @@ nav {
 
 #video {
   display: flex;
+  position: relative;
   padding: 10px;
   margin: auto;
+  overflow: hidden;
+  width: 100%;
 }
 
 #Shop {
