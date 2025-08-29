@@ -36,6 +36,7 @@ nav {
   right: 0;
   width: 100%;
   background-color: white;
+  z-index: 2;
 }
 
 .nav-link {
@@ -115,7 +116,7 @@ nav {
   margin: auto;
   overflow: hidden;
   width: 50%;
-  z-index: -1;
+  z-index: 1;
 }
 
 #Shop {
