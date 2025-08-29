@@ -114,7 +114,7 @@ nav {
   padding: 10px;
   margin: auto;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   z-index: -1;
 }
 
@@ -151,6 +151,8 @@ h3 {
   background-color: var(--lighter-shade-with-opacity);
   border-radius: 3px;
   color: var(--primary-color);
+  padding: 10px;
+  font-size: 20px;
 }
 
 .router {
