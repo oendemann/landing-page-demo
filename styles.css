@@ -1,0 +1,230 @@
+:root {
+  --primary-color: #1590BC;
+  --buy-background-color: #1495C4;
+  --lighter-shade: #E8F7FC;
+  --lighter-shade-with-opacity: rgba(232, 247, 252, 50%);
+  --newsletter-color: #F0D478;
+  --button-color: #937410;
+  --button-text-color: #FCF8E8;
+  --darker-shade: #073140;
+  --disclaimer-color: white;
+  --disclaimer-background-color: #404040;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+* {
+  font-family: Verdana, sans serif;
+}
+
+form {
+  padding-top: 120px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+  margin: -90px 0 10px -1000px;
+  top: 90px;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10%;
+  margin-right: 30px;
+}
+
+.nav-link:hover {
+  background-color: var(--primary-color);
+  color: var(--lighter-shade);
+}
+
+#banner {
+  background: linear-gradient(
+    var(--lighter-shade) 0%,
+    var(--primary-color) 5%,
+    var(--primary-color) 95%,
+    var(--lighter-shade) 100%
+  );
+  height: 200px;
+  margin: -30px -10px 0 -10px;
+}
+
+#header-img {
+  position: absolute;
+  margin-top: -4px;
+  object-fit: cover;
+  width: 210px;
+  height: 80px;
+  z-index: 200;
+}
+
+#newsletter-header {
+  background-color: var(--newsletter-color);
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px -7px black;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#email-submit {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: -20px 100px 0 100px;
+}
+
+#email {
+  padding: 5px;
+}
+
+#submit {
+  margin-left: 10px;
+  font-size: 17px;
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+}
+
+#video {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+
+#Shop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px;
+  background: linear-gradient(
+    var(--lighter-shade) 0%,
+    var(--primary-color) 1%,
+    var(--primary-color) 
+  );
+  color: var(--lighter-shade);
+  margin: 0 -10px 0 -10px;
+}
+
+.router-img {
+  display: flex;
+  margin: auto;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  margin-top: -5px;
+}
+
+h3, .router-name, .router-caption {
+  text-align: center !important;
+}
+
+h3 {
+  background-color: var(--lighter-shade-with-opacity);
+  border-radius: 3px;
+  color: var(--primary-color);
+}
+
+.router {
+  padding: 25px;
+  width: 300px;
+  height: 425px;
+  border-radius: 15px;
+  background-color: var(--buy-background-color);
+  box-shadow: 5px 5px 15px -4px black;
+}
+
+.buy-button {
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  margin: auto;
+  background-color: var(--button-color);
+  font-weight: bolder;
+}
+
+a {
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+}
+
+.router-name {
+  font-size: 19px;
+  font-family: monospace;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+
+.router-caption {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+#About_Us {
+  background: linear-gradient(
+    var(--primary-color) 0%,
+    var(--primary-color) 5%,
+    var(--darker-shade) 15%,
+    var(--darker-shade) 99%,
+    white
+  );
+  color: var(--lighter-shade);
+  padding: 30px;
+  margin: 0 -10px 0 -10px;
+}
+
+#About_Us-header {
+  font-weight: 700;
+  font-family: serif;
+  font-size: 32px;
+}
+
+#Contact {
+  padding: 0 20px 20px 20px;
+}
+
+#Contact-header {
+  padding-bottom: -50px;
+}
+
+ul li{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  max-width: 750px;
+  min-width: 100px;
+  position: relative;
+  right: 20px;
+  line-height: 30px;
+  justify-content: space-between;
+}
+
+#disclaimer {
+  background-color: var(--disclaimer-background-color);
+  margin: 0 -10px -10px -10px;
+  padding: 15px;
+  color: var(--disclaimer-color);
+  font-size: 12px;
+}
+
+#disclaimer-first-word {
+  font-weight: bold;
+}
