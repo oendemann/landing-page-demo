@@ -81,14 +81,15 @@ nav {
 }
 
 #newsletter-header {
+  position: relative;
   background-color: var(--newsletter-color);
   border-radius: 3px;
   box-shadow: 5px 5px 10px -7px black;
   display: flex;
   justify-content: center;
-  padding: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 10px auto 25px auto;
 }
 
 #email-submit {
